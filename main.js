@@ -1,3 +1,6 @@
+//*===========
+//* Варіант 1
+//*===========
 // Отримати модальне вікно та кнопку відкриття
 var modal = document.getElementById("modal");
 var btn = document.getElementById("open-modal");
@@ -24,4 +27,3 @@ window.onclick = function (event) {
       document.body.classList.remove("modal-open");
   }
 };
-
